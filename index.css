@@ -1,0 +1,38 @@
+#Description img {
+    border: 4px solid LightSlateGray;
+}
+
+#Head {
+    overflow-x: hidden;
+}
+ 
+#menu {
+    overflow-y: auto;
+    height: 500px;
+    min-height: 100px;
+    background-color: #F2F2F2;
+    padding-left: 2px;
+}
+
+#Description {
+    overflow-y: auto;
+    overflow-x: auto;
+    width: 700px;
+    height: 500px;
+    min-height: 100px;
+}
+
+.submenu:hover {
+    cursor: pointer;
+}
+
+.submenu2 {
+    display: none;
+    padding-left: 25px;
+}
+
+.end {
+    cursor: pointer;
+    text-decoration: underline;
+    color: cornflowerblue;
+}
